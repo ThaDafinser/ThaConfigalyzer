@@ -1,0 +1,33 @@
+{
+    "name":        "thadafinser/tha-configalyzer",
+    "description": "Zend Framework 2 Module that checks configuration for performance optimizations",
+    "type":        "library",
+    "license":     "WTFPL",
+    "keywords": [
+        "ZF2",
+        "performance",
+        "module",
+        "developer tool"
+    ],
+    
+    "authors": [{
+        "name": "Martin Keckeis",
+        "email": "martin.keckeis1@gmail.com"
+    }],
+    
+    "minimum-stability": "dev",
+    
+    "require": {
+        "php": ">=5.3.3"
+    },
+    
+    "require-dev": {
+        "zendframework/zend-developer-tools": "dev-master"
+    },
+    
+    "autoload": {
+        "psr-0": {
+            "ThaConfigalyzer\\": "src/"
+        }
+    }
+}
