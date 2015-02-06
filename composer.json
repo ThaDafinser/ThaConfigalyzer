@@ -10,6 +10,7 @@
         "developer tool"
     ],
     
+    "homepage": "https://github.com/ThaDafinser/ThaConfigalyzer",
     "authors": [{
         "name": "Martin Keckeis",
         "email": "martin.keckeis1@gmail.com"
@@ -28,6 +29,9 @@
     "autoload": {
         "psr-0": {
             "ThaConfigalyzer": "src/"
-        }
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
